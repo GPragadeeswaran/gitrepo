@@ -1,98 +1,85 @@
-* {
-    margin: 0%;
-    padding: 0%;
-}
-
 body {
-     
-    .background{
-        background-color: antiquewhite
-        ;
+    * {
+        margin: 0%;
+        padding: 0%;
     }
-
-
 
 
     .Header {
-        background-color: sandybrown;
-        color: blanchedalmond;
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    li,
-    h1,
-    ul {
-        display: inline;
-        margin: 10px;
-        padding: 5px;
-
-    }
-
-    li {
-        color: maroon;
-        cursor: pointer;
-    }
-
-    li:hover {
-        color: bisque;
-    }
-
-    input {
-        width: 60%;
-        padding: 15px;
-        border-width: 2px;
-        border-color: black;
-        border-style: solid;
-    }
-
-    .Searchbar {
-        padding: 50px;
-        text-align: center;
-
-    }
-
-    .box {
-        width: 200px;
-        border-color: black;
-        border-width: 2px;
-        border-style: solid;
-        display: inline-block;
-        background-color: grey;
-        
-        
-
-    }
-
-    .box:hover{
-       
-        color: brown;
-        cursor: pointer;
-    }
-
-    .Product {
-        text-align: center;
-    }
-
-    .aboutus{
-        text-align: center;
-       
-        
-    }
-    .textcolor{
-        color: blueviolet;
-        margin-top: 20px;
-    }
-    
-
-    .Content{
-        margin: 20px;
-        padding: 30px;
-        background-color: black;
-        text-align: center;
+        background-color: peru;
         color: white;
+        padding: 8px;
+    }
+
+    .login{
+        padding: 5px;
+        margin-top: 35px;
+    }
+    .loginbox{
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 2%;
+        border-color: black;
+        display: inline-block;
+        margin: 30px;
+        padding: 50px;
+       justify-content: space-around ;
+
+    }
+
+    input{
+        padding: 3px;
+        justify-content: center;
+        text-align: center;
     }
 
 
-}
+    td{
+        position: relative;
+        padding: 10px;
+        margin : 5px;
+        text-align:justify;
+    }
+
+   
+    button:hover{
+     cursor: pointer;
+     color: blue;
+    
+    }
+
+    .siginup{
+        padding: 5px;
+        margin-top: 35px;
+        
+
+    }
+
+    .rbox{
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 2%;
+        border-color: black;
+        display: inline-block;
+        margin: 30px;
+        padding: 40px;
+        
+       justify-content: space-around ;
+    }
+      
+    .register{
+        padding-bottom: 13px ;
+    }
+
+    
+    
+ 
+    }
+
+ 
+        
+     
+
+
+
+
